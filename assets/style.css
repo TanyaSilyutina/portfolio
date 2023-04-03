@@ -1,7 +1,8 @@
-/*
-rgb(234,235,254) - Light
-rgb(80,90,116) - Dark
-*/
+/* Create custom property for two main colors */
+:root {
+    --main-light-color: rgb(234,235,254);
+    --main-dark-color: rgb(80,90,116);
+}
 
 * {
     font-family: 'PT Serif', serif;
@@ -15,17 +16,17 @@ html {
     display: flex;
     justify-content: space-between;
     padding: 10px 10px 10px 0;
-    background-color: rgb(80, 90, 116);
+    background-color: var(--main-dark-color);
     align-items: center;
 }
 
 .name {
     font-size: xxx-large;
-    color: rgb(80, 90, 116);
+    color: var(--main-dark-color);
 }
 
 .header-name-left {
-    background-color: rgb(234, 235, 254);
+    background-color: var(--main-light-color);
     width: fit-content;
     padding: 10px 15px 10px 40px;
 }
@@ -37,12 +38,12 @@ html {
 .header-nav ul {
     display: flex;
     justify-content: space-between;
-    color: rgb(234, 235, 254);
+    color: var(--main-light-color);
     margin-right: 40px;
 }
 
 .header-nav ul li a {
-    color: rgb(234, 235, 254);
+    color: var(--main-light-color);
 }
 
 nav ul li {
@@ -62,8 +63,8 @@ nav ul li {
 }
 
 .header-job-span {
-    color: rgb(80, 90, 116);
-    background-color: rgb(234, 235, 254);
+    color: var(--main-dark-color);
+    background-color: var(--main-light-color);
     padding: 6px;
     font-size: x-large;
     font-weight: bold;
@@ -99,11 +100,11 @@ main section {
 
 .section-left span {
     font-size: xxx-large;
-    color: rgb(80, 90, 116);
+    color: var(--main-dark-color);
 }
 
 .section-right {
-    border-left: 2px solid rgb(80, 90, 116);
+    border-left: 2px solid var(--main-dark-color);
     padding: 10px 0 10px 30px;
     margin-left: 10px;
     display: flex;
@@ -123,7 +124,7 @@ main section {
 }
 
 .img-container {
-    color: rgb(80, 90, 116);
+    color: var(--main-dark-color);
     display: flex;
     flex-wrap: wrap;
 }
@@ -132,7 +133,7 @@ main section {
     height: 400px;
     background-size: cover;
     background-position: center;
-    border: 8px solid rgb(234, 235, 254);
+    border: 8px solid var(--main-light-color);
     background-color: pink;
     flex-basis: 100%;
     margin: 5px;
@@ -151,17 +152,10 @@ main section {
 }
 
 
-#work-img-one {
-    background-image: url("pexels-francesco-ungaro-1670977.jpg");
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-}
-
 .game-text {
     width: fit-content;
-    background-color: rgb(234,235,254);
-    color: rgb(80, 90, 116);
+    background-color: var(--main-light-color);
+    color: var(--main-dark-color);
     margin-bottom: 30px;
     padding: 10px;
 }
@@ -174,11 +168,20 @@ main section {
 
 /*reset click on link color*/
 .game-name a {
-    color: rgb(80, 90, 116);
+    color: var(--main-dark-color);
 }
 
 .game-tools {
     font-size: smaller;
+}
+
+#work-img-one {
+    background-image: url("pexels-francesco-ungaro-1670977.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    cursor: pointer;
 }
 
 #work-img-two {
@@ -215,8 +218,8 @@ main section {
 }
 
 #contact-nav li {
-    color: rgb(80, 90, 116);
-    border-bottom: 3px solid rgb(80, 90, 116);
+    color: var(--main-dark-color);
+    border-bottom: 3px solid var(--main-dark-color);
 }
 
 #contact-me-section {
@@ -226,148 +229,15 @@ main section {
 
 /*reset 'mailto' default color*/
 #contact-nav li a {
-    color: rgb(80, 90, 116);
+    color: var(--main-dark-color);
 }
 
 /*sets header nav style */
 #header-nav li {
-    border-bottom: 3px solid rgb(234, 235, 254);
+    border-bottom: 3px solid var(--main-light-color);
 }
 
 /*aligns 'Contact me' text*/
 #section-left-contacts {
     padding-bottom: 70px;
 }
-
-/*.contents-row div {*/
-/*    display: flex;*/
-/*    flex-grow: 1;*/
-/*    justify-content: space-between;*/
-/* 
-#header_img p {
-    color: #FEFEFBff;
-    background-color: #1A3095ff;
-    position: absolute;
-    right: 75px;
-    bottom: 30px;
-    padding: 0.5rem;
-    font-size: 1.5rem;
-    letter-spacing: 0.08rem;
-}
-
-header nav {
-    display: flex;
-    background-color: #F8A59Bff;
-    align-items: center;
-}
-
-header nav ul {
-    margin-right: 60px;
-    display: flex;
-    flex-grow: 1;
-    justify-content: end;
-}
-
-.contents {
-    display: flex;
-    flex-grow: 1;
-}
-
-.contents-row {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.contents-row div {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-between;
-}
-
-.work-item {
-    min-height: 400px;
-    background-color: red;
-    flex-grow: 1;
-    flex-basis: 40%;
-    flex-shrink: 0;
-    background-size: 100% 100%;
-    margin: 15px 15px 0 0;
-}
-
-#surf-report {
-    background-image: url("./pexels-anni-roenkae-3219951.jpg");
-
-}
-
-#led-wall {
-    background-image: url("./pexels-johannes-plenio-1103970.jpg");
-}
-
-#calculator {
-    background-image: url(./pexels-mnm-zameer-3308588.jpg);
-}
-
-#puzzle {
-    background-image: url("./pexels-suzy-hazelwood-1629236.jpg");
-}
-
-#buddy {
-    background-image: url("./pexels-zaksheuskaya-1616403.jpg");
-}
-
-.contents ul {
-    display: flex;
-    flex-grow: 1;
-    justify-content: space-evenly;
-}
-
-header nav ul li,
-.contents ul li {
-    display: inline-block;
-    padding: 0.5rem;
-    padding-left: 1rem;
-    font-size: 1.2rem;
-    letter-spacing: 0.08rem;
-    color: #3C2953ff;
-}
-
-main section {
-    display: flex;
-    margin-top: 30px;
-}
-
-main section .heading {
-    display: flex;
-    justify-content: right;
-    flex-basis: 300px;
-    flex-shrink: 0;
-    border-right: 2px solid #56182Dff;
-    padding-right: 5px;
-    margin-right: 20px;
-}
-
-.heading h1 {
-    font-size: 3rem;
-    color: #1A3095ff;
-}
-
-#header_img {
-    background-image: url("./header.jpg");
-    height: 160px;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-#name {
-    color: #FEFEFBff;
-    background-color: #1A3095ff;
-    padding: 0.5rem;
-    padding-left: 1.9rem;
-    font-size: 1.5rem;
-    letter-spacing: 0.08rem;
-    margin: 5px 0 5px 0;
-
-} */
