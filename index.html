@@ -6,6 +6,137 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="./assets/reset.css"/>
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<header>
+    <section class="first-header">
+        <div class="header-name-left">
+            <span class="name">Tanya Silyutina</span>
+        </div>
+        <nav class="header-nav">
+            <ul id="header-nav">
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#contacts">Contact Me</a></li>
+                <li>Resume</li>
+            </ul>
+        </nav>
+    </section>
+
+    <section class="second-header">
+        <div class="header-img">
+            <span class="header-job-span">Web Development Student</span>
+        </div>
+    </section>
+</header>
+
+<main>
+    <section class="about-me">
+        <div class="section-left">
+            <span id="about-me">About </span>
+            <span> Me</span>
+        </div>
+        <div class="section-right">
+            <p class="about-me-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.
+                <br>
+                <br>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                mollit
+                anim id est laborum.
+            </p>
+        </div>
+    </section>
+    <section class="work">
+        <div class="section-left">
+            <span id="work">Work</span>
+        </div>
+        <div class="section-right">
+            <div class="img-container">
+                <div id="work-img-one" class="imgs">
+                    <div class="game-text">
+                        <span class="game-name"> <a href="https://tanyasilyutina.github.io/word-guess-game/" target="_blank">Word Guess Game</a></span>
+                        <span class="game-tools">HTML, CSS, JavaScript</span>
+                    </div>
+                </div>
+                <div id="work-img-two" class="smaller imgs">
+                    <div class="game-text">
+                        <span class="game-name"><a href="https://tanyasilyutina.github.io/rock-paper-scissors-game/" target="_blank">Rock, Paper, Scissors Game</a></span>
+                        <span class="game-tools">JavaScript</span>
+                    </div>
+                </div>
+
+                <div id="work-img-three" class="smaller imgs">
+                    <div class="game-text">
+                        <span class="game-name"> <a href="https://tanyasilyutina.github.io/js-password-generator-HW/" target="_blank">Password Generator</a></span>
+                        <span class="game-tools">HTML, CSS, JavaScript</span>
+                    </div>
+                </div>
+                <div id="work-img-four" class="smaller imgs">
+                    <div class="game-text">
+                        <span class="game-name">Sample Name</span>
+                        <span class="game-tools">HTML, CSS, JavaScript</span>
+                    </div>
+                </div>
+                <div id="work-img-five" class="smaller imgs">
+                    <div class="game-text">
+                        <span class="game-name">Sample Name</span>
+                        <span class="game-tools">HTML, CSS, JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="contacts">
+        <div class="section-left" id="section-left-contacts">
+            <span id="contacts">Contact</span>
+            <span> Me</span>
+        </div>
+        <div class="section-right" id="contact-me-section">
+            <nav>
+                <ul id="contact-nav">
+                    <li>425.000.0000</li>
+                    <li><a href="mailto:silyutinatanya@gmail.com">silyutinatanya@gmail.com</a></li>
+                    <li><a href="https://github.com/TanyaSilyutina/" target="_blank">GitHub</a></li>
+                    <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+                    <li><a href="https://open.spotify.com/user/ttkino" target="_blank">Spotify</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+</main>
+</body>
+
+<!--Features: links open in new tabs-->
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./assets/reset.css" />
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
@@ -26,11 +157,9 @@
         <div id="header_img">
             <p>Cool subtitle here!</p>
         </div>
-        <!-- lernantino has a larger left padding 
-padding: top right bottom left fot ABOUT ME sections  -->
     </header>
     <main>
-        <section>
+        <article>
             <div class="heading">
                 <h1>About Me</h1>
             </div>
@@ -39,7 +168,7 @@ padding: top right bottom left fot ABOUT ME sections  -->
                     nihil,
                     eius ut odio accusamus, ipsam alias odit quaerat, doloremque magnam iste? Est odio eius id?ß</p>
             </div>
-        </section>
+        </article>
         <section>
             <div class="heading">
                 <h1>Work</h1>
@@ -76,4 +205,4 @@ padding: top right bottom left fot ABOUT ME sections  -->
     </main>
 </body>
 
-</html>
+</html> -->
