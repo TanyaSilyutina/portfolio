@@ -35,6 +35,6 @@ N/A
 * Images increase in size upon cursor hover
 * Images are clickable and will lead directly to projects' webpages
 * Contacts section features a dynamic email element, as well as clickable Github, Twitter, and Spotify elements
-* The portfolio pages resizes for small screens:
+* The portfolio page resizes for small screens:
 
 * ![Portfolio Phone View](assets/Screenshot%202023-04-03%20at%206.45.41%20PM.png)
