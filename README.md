@@ -1,27 +1,38 @@
-# second_hw
-Creating a portfolio website for my second HW
+# Projects Portfolio
 
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
+## Description
 
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+Using HTML and CSS, I created a portfolio page that showcases my current coding projects. 
+The purpose of the portfolio page is to present my work to my future employers.
+While building this webpage, I learned a lot about how to style pages with CSS FlexBox. 
+The most challenging part was setting up media queries for different screen sizes.
+
+## Installation
+
+N/A
+
+## Usage
+
+Please use this link to view the portfolio: [My Portfolio](https://tanyasilyutina.github.io/second_hw/) 
+
+For recent projects, please use the navigation bar on the right and select 'Work': 
+![Nav Bar](assets/Screenshot%202023-04-03%20at%205.52.25%20PM.png)
+
+Click on any image to view the project:
+![My projects](assets/Screenshot 2023-04-03 at 5.48.53 PM.png)
 
 
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
+## Credits
 
+N/A
 
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
+## License
 
+N/A
 
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
+## Features
 
-
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-
-
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+* The portfolio features dynamic navigation bar
+* Images increase in size upon cursor hover
+* Images are clickable and will lead directly to projects' webpages
+* Contacts section features a dynamic email element, as well as clickable Github, Twitter, and Spotify elements
