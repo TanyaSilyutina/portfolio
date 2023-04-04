@@ -265,26 +265,52 @@ main section {
     padding-bottom: 70px;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
+/* Reset display view for small screens */
+@media only screen and (max-width: 800px) {
+    .first-header {
+        flex-direction: column !important;
+    }
+    .second-header {
+        display: none;
+    }
+    section {
+        flex-direction: column !important;
+    }
+    .header-name-left {
+        padding: 5px !important;
+    }
+    .section-left {
+        justify-content: center;
+        align-items: center;
+        flex-basis: 0;
+    }
+    .section-right {
+        border: 0;
+        padding: 0;
+        margin: 25px;
+    }
+    main section {
+        margin: 0;
+    }
+    .img-container {
+        flex-direction: column;
+    }
+    ul {
+        flex-direction: column;
+    }
+    ul li {
+        margin-top: 15px;
+        text-align: center;
+    }
+    #header-nav {
+        margin-right: 0;
+        text-align: center;
+    }
+    #contact-me-section {
+        margin: 0 0 20px 0;
+        padding: 0;
+    }
+    #section-left-contacts {
+        padding-bottom: 20px;
+    }
 }
