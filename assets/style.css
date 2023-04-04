@@ -1,17 +1,20 @@
 /* Create custom property for two main colors */
 :root {
-    --main-light-color: rgb(234,235,254);
-    --main-dark-color: rgb(80,90,116);
+    --main-light-color: rgb(234, 235, 254);
+    --main-dark-color: rgb(80, 90, 116);
 }
 
+/* Set up font family */
 * {
     font-family: 'PT Serif', serif;
 }
 
+/* Scrolls smoothly to the section when prompted by click */
 html {
     scroll-behavior: smooth;
 }
 
+/* Style for page nav bar section */
 .first-header {
     display: flex;
     justify-content: space-between;
@@ -20,21 +23,25 @@ html {
     align-items: center;
 }
 
+/* Increase text size for text in the top left corner */
 .name {
     font-size: xxx-large;
     color: var(--main-dark-color);
 }
 
+/* Adjust top left corner name text*/
 .header-name-left {
     background-color: var(--main-light-color);
     width: fit-content;
     padding: 10px 15px 10px 40px;
 }
 
+/* Increase width for header nav bar */
 .header-nav {
     width: 40%;
 }
 
+/* Adjust position for header nav bar */
 .header-nav ul {
     display: flex;
     justify-content: space-between;
@@ -42,16 +49,19 @@ html {
     margin-right: 40px;
 }
 
+/* Reset default hyperlink color styling */
 .header-nav ul li a {
     color: var(--main-light-color);
 }
 
+/* Set style for all nav elements on the page */
 nav ul li {
     display: inline-block;
     font-size: larger;
     padding: 0 12px 6px 12px;
 }
 
+/* Set position for the top header img */
 .header-img {
     background-color: black;
     background-image: url("./header-top.jpg");
@@ -62,6 +72,7 @@ nav ul li {
     position: relative;
 }
 
+/* Set position for the 'Web Dev Student' span */
 .header-job-span {
     color: var(--main-dark-color);
     background-color: var(--main-light-color);
@@ -74,22 +85,26 @@ nav ul li {
     right: 65px;
 }
 
+/* Set margin for the main section */
 main section {
     display: flex;
     margin: 30px 60px 30px 0;
 }
 
+/* Set position for the entire Work section */
 .work {
     display: flex;
     justify-content: space-between;
 }
 
+/* Set position for contacts section */
 .contacts {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+/* Set position for "about me, work, contact me" spans  */
 .section-left {
     display: flex;
     flex-direction: column;
@@ -98,11 +113,13 @@ main section {
     flex-shrink: 0;
 }
 
+/* Increase font size for "about me, work, contact me" spans  */
 .section-left span {
     font-size: xxx-large;
     color: var(--main-dark-color);
 }
 
+/* Set position and border for the right main section */
 .section-right {
     border-left: 2px solid var(--main-dark-color);
     padding: 10px 0 10px 30px;
@@ -112,17 +129,20 @@ main section {
     flex-grow: 1;
 }
 
+/* Set up position for the project name and description tags on images */
 .img-container span {
     display: flex;
     flex-direction: column;
 }
 
+/* Set position for the project description tag */
 .img-container {
     color: var(--main-dark-color);
     display: flex;
     flex-wrap: wrap;
 }
 
+/* Set up images' positions */
 .imgs {
     height: 400px;
     background-size: cover;
@@ -136,16 +156,16 @@ main section {
     flex-grow: 1;
     justify-content: space-between;
 }
-
+/* Create hover effect on images */
 .imgs:hover {
     transform: scale(1.1);
 }
-
+/* Make the bottom 4 images smaller */
 .imgs.smaller {
     flex-basis: 40%;
 }
 
-
+/* Set position for project name and descriptions tags */
 .game-text {
     width: fit-content;
     background-color: var(--main-light-color);
@@ -154,29 +174,32 @@ main section {
     padding: 10px;
 }
 
+/* Create font style for project name tags */
 .game-name {
     font-size: large;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
-/*reset click on link color*/
+/* Reset click on link color */
 .game-name a {
     color: var(--main-dark-color);
 }
 
+/* Create font style for project description tags */
 .game-tools {
     font-size: smaller;
 }
 
+/* Upload image and set tag position within the image */
 #work-img-one {
     background-image: url("pexels-francesco-ungaro-1670977.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-
-    cursor: pointer;
 }
+
+/* Upload image and set tag position within the image */
 
 #work-img-two {
     background-image: url("pexels-karolina-grabowska-5477677.jpg");
@@ -185,6 +208,7 @@ main section {
     justify-content: flex-end;
 }
 
+/* Upload image and set tag position within the image */
 #work-img-three {
     background-image: url("pexels-steve-johnson-1044988.jpg");
     display: flex;
@@ -192,6 +216,7 @@ main section {
     justify-content: flex-end;
 }
 
+/* Upload image and set tag position within the image */
 #work-img-four {
     background-image: url("pexels-nic-wood-6432056.jpg");
     display: flex;
@@ -199,6 +224,7 @@ main section {
     justify-content: flex-end;
 }
 
+/* Upload image and set tag position within the image */
 #work-img-five {
     background-image: url("pexels-ivan-samkov-4491829.jpg");
     display: flex;
@@ -206,32 +232,35 @@ main section {
     justify-content: flex-end;
 }
 
+/* Set items position within 'Contact me' section */
 #contact-nav {
     display: flex;
     justify-content: space-evenly;
 }
 
+/* Style 'Contact Me' list items */
 #contact-nav li {
     color: var(--main-dark-color);
     border-bottom: 3px solid var(--main-dark-color);
 }
 
+/* Adjust position for the 'Contact Me' section */
 #contact-me-section {
     padding: 40px 0 60px 0;
     margin-bottom: 30px;
 }
 
-/*reset 'mailto' default color*/
+/* Reset 'mailto' default color */
 #contact-nav li a {
     color: var(--main-dark-color);
 }
 
-/*sets header nav style */
+/* Set header nav style */
 #header-nav li {
     border-bottom: 3px solid var(--main-light-color);
 }
 
-/*aligns 'Contact me' text*/
+/* Align 'Contact me' header with the nav list items */
 #section-left-contacts {
     padding-bottom: 70px;
 }
@@ -239,18 +268,22 @@ main section {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 }
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
 }
+
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
 }
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 
 }
+
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 
