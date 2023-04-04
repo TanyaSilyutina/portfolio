@@ -19,7 +19,7 @@ For recent projects, please use the navigation bar on the right and select 'Work
 ![Nav Bar](assets/Screenshot%202023-04-03%20at%205.52.25%20PM.png)
 
 Click on any image to view the project:
-![My projects](assets/Screenshot 2023-04-03 at 5.48.53 PM.png)
+![My projects](assets/Screenshot%202023-04-03%20at%205.48.53%20PM.png)
 
 
 ## Credits
