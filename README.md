@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-Please use this link to view the portfolio: [My Portfolio](https://tanyasilyutina.github.io/second_hw/)
+Please use this link to view the portfolio: [My Portfolio](https://tanyasilyutina.github.io/portfolio/)
 
 For recent projects, please use the navigation bar on the right and select 'Work':
 ![Nav Bar](assets/Screenshot%202023-04-03%20at%205.52.25%20PM.png)
