@@ -64,7 +64,7 @@ nav ul li {
 /* Set position for the top header img */
 .header-img {
     background-color: black;
-    background-image: url("/assets/header-top.jpg");
+    background-image: url("./assets/header-top.jpg");
     height: 170px;
     width: 100%;
     background-size: cover;
@@ -193,7 +193,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-one {
-    background-image: url("/assets/pexels-francesco-ungaro-1670977.jpg");
+    background-image: url("assets/pexels-francesco-ungaro-1670977.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -202,7 +202,7 @@ main section {
 /* Upload image and set tag position within the image */
 
 #work-img-two {
-    background-image: url("/assets/pexels-karolina-grabowska-5477677.jpg");
+    background-image: url("assets/pexels-karolina-grabowska-5477677.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -210,7 +210,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-three {
-    background-image: url("/assets/pexels-steve-johnson-1044988.jpg");
+    background-image: url("assets/pexels-steve-johnson-1044988.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -218,7 +218,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-four {
-    background-image: url("/assets/calendar-project-one.png");
+    background-image: url("assets/calendar-project-one.png");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -228,7 +228,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-five {
-    background-image: url("/assets/pexels-ivan-samkov-4491829.jpg");
+    background-image: url("assets/pexels-ivan-samkov-4491829.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
