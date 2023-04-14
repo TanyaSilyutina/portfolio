@@ -64,7 +64,7 @@ nav ul li {
 /* Set position for the top header img */
 .header-img {
     background-color: black;
-    background-image: url("/assets/header-top.jpg");
+    background-image: url("../header-top.jpg");
     height: 170px;
     width: 100%;
     background-size: cover;
@@ -156,10 +156,12 @@ main section {
     flex-grow: 1;
     justify-content: space-between;
 }
+
 /* Create hover effect on images */
 .imgs:hover {
     transform: scale(1.1);
 }
+
 /* Make the bottom 4 images smaller */
 .imgs.smaller {
     flex-basis: 40%;
@@ -193,7 +195,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-one {
-    background-image: url("/assets/pexels-francesco-ungaro-1670977.jpg");
+    background-image: url("../pexels-francesco-ungaro-1670977.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -202,7 +204,7 @@ main section {
 /* Upload image and set tag position within the image */
 
 #work-img-two {
-    background-image: url("/assets/pexels-karolina-grabowska-5477677.jpg");
+    background-image: url("../pexels-karolina-grabowska-5477677.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -210,7 +212,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-three {
-    background-image: url("/assets/pexels-steve-johnson-1044988.jpg");
+    background-image: url("../pexels-steve-johnson-1044988.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -218,7 +220,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-four {
-    background-image: url("/assets/calendar-project-one.png");
+    background-image: url("../calendar-project-one.png");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -228,7 +230,7 @@ main section {
 
 /* Upload image and set tag position within the image */
 #work-img-five {
-    background-image: url("/assets/pexels-ivan-samkov-4491829.jpg");
+    background-image: url("../pexels-ivan-samkov-4491829.jpg");
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -272,46 +274,58 @@ main section {
     .first-header {
         flex-direction: column !important;
     }
+
     .second-header {
         display: none;
     }
+
     section {
         flex-direction: column !important;
     }
+
     .header-name-left {
         padding: 5px !important;
     }
+
     .section-left {
         justify-content: center;
         align-items: center;
         flex-basis: 0;
     }
+
     .section-right {
         border: 0;
         padding: 0;
         margin: 25px;
     }
+
     main section {
         margin: 0;
     }
+
     .img-container {
         flex-direction: column;
     }
+
     ul {
         flex-direction: column;
     }
+
     ul li {
         margin-top: 15px;
         text-align: center;
     }
+
     #header-nav {
         margin-right: 0;
         text-align: center;
     }
+
     #contact-me-section {
         margin: 0 0 20px 0;
         padding: 0;
     }
+
     #section-left-contacts {
         padding-bottom: 20px;
     }
